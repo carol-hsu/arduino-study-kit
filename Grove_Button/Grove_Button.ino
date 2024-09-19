@@ -6,7 +6,7 @@
 // Connect the Grove - LED to D7
 
 // Defines the pins to which the button and LED are connected.
-const int pinButton = 3;
+const int pinButton = 4;
 const int pinLed    = 7;
 
 void setup()

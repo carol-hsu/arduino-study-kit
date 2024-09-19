@@ -5,7 +5,7 @@
 // Open the Serial Monitor in the Arduino IDE after uploading
 
 // Define the pin to which the angle sensor is connected.
-const int potentiometer = A0;
+const int potentiometer = A3;
 
 void setup()
 {

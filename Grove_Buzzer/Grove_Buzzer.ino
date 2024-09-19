@@ -25,12 +25,12 @@
  * http://www.arduino.cc/en/Tutorial/Melody
  */
 
-int speakerPin = 3;                  // Grove Buzzer connect to D3
+int speakerPin = 5;                  // Grove Buzzer connect to D3
 
 
-int length = 15; // the number of notes
-char notes[] = "ccggaagffeeddc "; // a space represents a rest
-int beats[] = { 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 4 };
+int length = 14; // the number of notes
+char notes[] = "geefddcdefggg ";//"ccggaagffeeddc "; // a space represents a rest
+int beats[] = { 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 3 };
 int tempo = 300;
 
 void playTone(int tone, int duration) {

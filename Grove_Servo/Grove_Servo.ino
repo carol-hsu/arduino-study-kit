@@ -7,8 +7,8 @@
 #include <Servo.h>
 
 // Define the pins to which the servo and sensor are connected.
-const int pinServo = 3;
-const int potentiometer = 0;
+const int pinServo = 5;
+const int potentiometer = 3;
 
 // Use a Servo object to represent and control the servo.
 Servo groveServo;

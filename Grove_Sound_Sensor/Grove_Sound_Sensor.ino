@@ -5,7 +5,7 @@
 // Connect the Grove - LED to D7
 
 // Define the pins to which the sound sensor and LED are connected.
-const int pinSound = A0;
+const int pinSound = A3;
 const int pinLed   = 7;
 
 // Define the sound level above which to turn on the LED.

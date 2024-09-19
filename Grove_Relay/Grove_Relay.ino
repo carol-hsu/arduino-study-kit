@@ -6,7 +6,7 @@
 // Connect the Grove - Relay to D8
 
 // Define the pins to which the button and relay are attached.
-const int buttonPin = 3;
+const int buttonPin = 5;
 const int relayPin =  8;
 
 void setup()
